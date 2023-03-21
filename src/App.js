@@ -1,12 +1,11 @@
-import Header from './component/Header';
-import Nav from './component/Nav';
+import Home from './component/Home';
+import Navigation from './Navigation';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Nav />
+      <Navigation />
     </div>
   );
 }
