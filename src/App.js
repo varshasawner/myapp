@@ -7,6 +7,7 @@ import { useState } from 'react';
 import Calculator from './component/Calculator';
 import Mode from './component/Mode';
 import DigitalClock from './component/DigitalClock';
+import FormValidation from './component/FormValidation';
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
       <Calculator />
       <Mode />
       <DigitalClock />
+      <FormValidation />
       <div>{10 + 20}</div>
       
       <input type="text" onChange={(e)=>{setText(e.target.value)}} value={text1}></input>
