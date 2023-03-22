@@ -1,4 +1,4 @@
-
+import Head from "./Head";
 
 export default function Header(props){
 
@@ -11,6 +11,7 @@ export default function Header(props){
                 <h1>{props.siteName }</h1>
                 <button onClick={()=>{props.other(greeting)}}>click</button>
                 <h2>{props.sakshi}</h2>
+                <Head />
             </header>
         </>
     )

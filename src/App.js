@@ -19,6 +19,7 @@ function App() {
       <Header siteName="hello12" other={hello} sakshi="myname12"/>
       <Navigation />
       <StateTask />
+      <div>{10 + 20}</div>
       
       <input type="text" onChange={(e)=>{setText(e.target.value)}} value={text1}></input>
 
