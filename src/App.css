@@ -1,6 +1,11 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
 header{
   height: 100px;
   background-color: pink;
+  text-align: center;
 }
 nav{
   height: 70px;
