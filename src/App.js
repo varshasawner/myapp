@@ -4,6 +4,9 @@ import './App.css';
 import StateTask from './component/StateTask';
 import Header from './component/Header';
 import { useState } from 'react';
+import Calculator from './component/Calculator';
+import Mode from './component/Mode';
+import DigitalClock from './component/DigitalClock';
 
 function App() {
 
@@ -14,16 +17,19 @@ function App() {
   }
 
   return (
-    <div className="App">
+    <main className="light">
       <Header siteName="hello" other={hello} sakshi="myname"/>
       <Header siteName="hello12" other={hello} sakshi="myname12"/>
       <Navigation />
       <StateTask />
+      <Calculator />
+      <Mode />
+      <DigitalClock />
       <div>{10 + 20}</div>
       
       <input type="text" onChange={(e)=>{setText(e.target.value)}} value={text1}></input>
 
-    </div>
+    </main>
   );
 }
 

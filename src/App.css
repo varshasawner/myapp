@@ -2,12 +2,29 @@
   margin: 0px;
   padding: 0px;
 }
+body{
+  background-color: var(--background);
+  color: var(--textColor);
+}
 header{
   height: auto;
-  background-color: pink;
+  background-color: rgb(108, 3, 20);
   text-align: center;
 }
 nav{
   height: 70px;
   background-color: rgb(205, 25, 55);
+}
+.calBtn{
+  padding: 10px;
+  color: blue;
+  font-size: 20px;
+}
+.light{
+  --background : rgb(182, 159, 159);
+  --textColor : rgb(24, 24, 24);
+}
+.dark{
+  --background : rgb(18, 16, 16);
+  --textColor : rgb(209, 197, 197);
 }
