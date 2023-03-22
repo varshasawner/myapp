@@ -3,7 +3,7 @@
   padding: 0px;
 }
 header{
-  height: 100px;
+  height: auto;
   background-color: pink;
   text-align: center;
 }
